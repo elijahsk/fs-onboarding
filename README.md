@@ -1,3 +1,27 @@
+# FellowShoppers Onboarding Demo
+
+In this application, it will provided you with the basic credentials to FS wifi, as well as collect some information, such as bank account number and emails that will be used for github and slack.
+
+But mainly, it's meant to be a demo for a super small full-stack application
+* client
+* server
+* database
+
+Some other concepts demonstrated includes:
+* environment variables
+* cors
+* react controlled components
+* state and props
+* simple api server
+* storing information to mongodb
+* docker, docker-compose
+
+## How to run
+
+This project probably will not run seemlessly with zero configuration... So just use this as a reference lol.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

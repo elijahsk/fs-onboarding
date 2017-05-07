@@ -126,7 +126,9 @@ const Conclusion = props => {
                 Welcome to the end of the React demonstration!
             </h2>
             <p>
-                Check out the source code of this demo <a href="#">here</a>!
+                {"Check out the source code of this demo "}
+                <a href="https://github.com/xuatz/fs-onboarding">here</a>
+                !
             </p>
         </div>
     );

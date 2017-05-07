@@ -1,0 +1,30 @@
+version: "3"
+
+# volumes:
+#   mongo-xbo:
+
+services:
+  web:
+    image: localhost:5000/fs-onboarding-client
+    container_name: client
+    restart: always
+    ports:
+      - "4501:80"
+  node:
+    image: localhost:5000/fs-onboarding-server
+    container_name: server
+    restart: always
+    ports:
+      - "4502:9000"
+    environment:
+      - DB_HOST=192.168.1.102
+  # mongo:
+  #   image: mongo:3.4.3
+  #   container_name: fs-onboarding-db
+  #   restart: always
+  #   volumes:
+  #     - 'mongo-xbo:/data/db'
+  # redis:
+  #   image: redis
+  #   container_name: redis-xbo
+  #   restart: always

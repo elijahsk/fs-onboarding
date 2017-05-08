@@ -109,7 +109,7 @@ class SampleComponent extends Component {
             <div style={styles.container}>
                 {this.renderPage()}
 
-                {this.state.pageNo !== 3 &&
+                {this.state.pageNo < 3 &&
                     <button style={styles.button} onClick={this.nextPage}>
                         Next
                     </button>}
